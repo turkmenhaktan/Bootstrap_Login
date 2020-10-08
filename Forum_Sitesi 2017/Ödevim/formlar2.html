@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+</head>
+
+<body>
+<form action="" method="post">
+<table border="1">
+	<tr>
+		<td>
+			<b>Ad:</b>
+		</td>
+		<td>
+			<input type="text"  name="ad" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Soyad:</b>
+		</td>
+		<td>
+			<input type="text"  name="sad" />
+		</td>
+	</tr>
+	<tr>
+		<td>Yaş</td>
+		<td><input type="text" placeholder="Yaşınız"  name="yas" size="2"  /></td>
+	</tr>
+	<tr>
+		<td>Resim ekle</td>
+		<td><input type="file" name="resim" /></td>
+	</tr>
+	<tr>
+		<td>
+			<b>TC No</b>
+		</td>
+		<td>
+			<input type="text" maxlength="11" min="11"  name="sad" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Cinsiyet</b>
+		</td>
+		<td colspan="2"><label> K<input type="radio" name="c" /></label>
+						<label> E<input type="radio" name="c" /></label>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Yabancı Diller</b>
+		</td>
+		<td><label>İngilizce <input type="checkbox" name="ing" /></label> <label>Fransızca <input type="checkbox" name="frs" /></label> <label>Japonca <input type="checkbox" name="jpn" /></label>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Görüş</b>
+		</td>
+		<td><textarea name="gorus" cols="20" rows="2" placeholder="GÖRÜŞÜNÜZ BİZİM İÇİN ÖNEMLİ"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><input type="submit" onClick="merhaba()" value="KAYDET" name="buton"/></td>
+		<td><input type="reset" value="Temizle" name="buton"/></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
